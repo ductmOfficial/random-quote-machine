@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 // project imports
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import store from './store';
+import store from './redux/store';
 import './styles.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

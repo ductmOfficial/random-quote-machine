@@ -25,25 +25,25 @@ The Random Quote Generator is a web application that fetches and displays random
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/random-quote-generator.git
+git clone https://github.com/ductmOfficial/random-quote-machine
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd random-quote-generator
+cd random-quote-machine
 ```
 
 3. Install the dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 4. Start the development server:
 
 ```bash
-npm start
+yarn start
 ```
 
 The app will be running at `http://localhost:3000`.
