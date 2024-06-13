@@ -8,7 +8,7 @@ const Footer = () => {
         variant="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/ductmOfficial/reactjs-portfolio-callmekathy"
+        href="https://github.com/ductmOfficial/random-quote-machine"
         className="text-decoration-none text-white"
       >
         by @ductmOfficial
