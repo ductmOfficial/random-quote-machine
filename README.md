@@ -2,7 +2,7 @@
 
 ## Description
 
-The Random Quote Generator is a web application that fetches and displays random quotes. It allows users to generate new quotes and share them on Twitter. This project uses React for the frontend and Redux for state management.
+The Random Quote Machine is a web application that fetches and displays random quotes. It allows users to generate new quotes and share them on Twitter. This project uses React for the frontend and Redux for state management.
 
 ## Features
 
