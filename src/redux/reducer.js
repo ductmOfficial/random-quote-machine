@@ -1,8 +1,8 @@
-import { FETCH_QUOTE_SUCCESS } from './actions';
+import { FETCH_QUOTE_SUCCESS } from "./actions";
 
 const initialState = {
-  quote: '',
-  author: '',
+  quote: "",
+  author: "",
 };
 
 const reducer = (state = initialState, action) => {

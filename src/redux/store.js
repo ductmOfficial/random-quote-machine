@@ -1,8 +1,8 @@
-import { applyMiddleware, createStore } from 'redux';
-import { thunk } from 'redux-thunk';
+import { applyMiddleware, createStore } from "redux";
+import { thunk } from "redux-thunk";
 
 // project imports
-import quoteReducer from './reducer';
+import quoteReducer from "./reducer";
 
 const store = createStore(quoteReducer, applyMiddleware(thunk));
 

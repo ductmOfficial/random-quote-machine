@@ -1,10 +1,14 @@
-import React from 'react';
-import { Card, Button, Stack } from 'react-bootstrap';
-import { IconBrandTwitter, IconQuote } from '@tabler/icons-react';
+import React from "react";
+import { Card, Button, Stack } from "react-bootstrap";
+import { IconBrandTwitter, IconQuote } from "@tabler/icons-react";
 
 const QuoteCard = ({ quote, author, color, handleNewQuote }) => {
   return (
-    <Card id="quote-box" data-testid="quote-box" style={{ width: '30rem', border: 'none', color }}>
+    <Card
+      id="quote-box"
+      data-testid="quote-box"
+      style={{ width: "30rem", border: "none", color }}
+    >
       <Card.Body>
         <figure>
           <blockquote id="text" className="blockquote">

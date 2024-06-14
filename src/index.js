@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
 
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
 // project imports
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import store from './redux/store';
-import './styles.css'
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import store from "./redux/store";
+import "./styles.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
